@@ -1,6 +1,6 @@
 # AngularCreateWebComponent
 
-Simple showcase hot to create web component (custom element) using Angular (version 12.2.6)
+Simple showcase how to create web component (custom element) using Angular (version 12.2.6)
 
 ## How to Create Web Component with Angular
 
@@ -16,7 +16,7 @@ ng add @angular/elements
 ng g c my-element
 ```
 
-3. Do the changes in app.moduel.ts\
+3. Make following changes in app.module.ts\
    a. Optionally remove app.component (so we don`t mix default root component)\
    b. Remove **bootstrap** and add **entryComponents**
    ```typescript
@@ -39,7 +39,7 @@ export class AppModule {
 
 4. Make your required changes in the custom element component
 5. For your Development server change content of index.html file. Replace <code>\<app-root><\/app-root></code> with <code>\<my-element><\/my-element></code>
-6. Development server will work
+6. Development server will work and show content of our custom element
 7. We need to build, extract and bundle all required code to be able use it externally\
     a.
 
