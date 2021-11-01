@@ -18,8 +18,9 @@ ng g c my-element
 
 3. Do the changes in app.moduel.ts\
    a. Optionally remove app.component (so we don`t mix default root component)\
-   b. add
+   b. Remove **bootstrap** and add **entryComponents**
    ```typescript
+   //bootstrap: [AppComponent],
    entryComponents: [MyElementComponent]</code>
    ```
    c. update class AppModule. Important is the name of your element! In this example **'my-element'**

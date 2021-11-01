@@ -1,13 +1,11 @@
 import { NgModule, Injector } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
 import { MyElementComponent } from './my-element/my-element.component';
 import {createCustomElement} from '@angular/elements';
 
 @NgModule({
   declarations: [
-    AppComponent,
     MyElementComponent,
   ],
   imports: [
